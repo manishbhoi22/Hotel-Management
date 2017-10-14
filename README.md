@@ -16,5 +16,3 @@ git add -A > to stage all files and folders
 git commit -m "<msg>" > to commit changes with a message
   
 git push > to push to Github Repository
-
-testing
