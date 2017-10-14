@@ -1,4 +1,4 @@
-# Hotel-Management
+# Hotel-Management [![Build Status](https://travis-ci.org/manishbhoi22/Hotel-Management.svg?branch=master)](https://travis-ci.org/manishbhoi22/Hotel-Management)
 User Registration form
 
 
@@ -16,3 +16,4 @@ git add -A > to stage all files and folders
 git commit -m "<msg>" > to commit changes with a message
   
 git push > to push to Github Repository
+
