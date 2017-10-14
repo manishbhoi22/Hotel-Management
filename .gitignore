@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# we do not need/require this file
+.idea
