@@ -1,5 +1,3 @@
-
-
 function fnCheck()
 {
     var cnRefVal = document.getElementById("cn").value;
@@ -27,9 +25,12 @@ function fnReg() {
     var aaRefVal = document.getElementById("aa").value;
     var resRef = document.getElementById("res");
     var btnRef = document.getElementById("bttn");
+    var roomVal;
+    var room;
+    var facilities;
     if (deluxRef.checked) {
-        var roomVal = 2500;
-        var room = deluxRef.value;
+        roomVal = 2500;
+         room = deluxRef.value;
     }
     if (suiteRef.checked) {
         roomVal = 4000;
@@ -37,7 +38,7 @@ function fnReg() {
     }
     if (acRef.checked) {
         roomVal = roomVal + 500;
-        var facilities = acRef.value;
+        facilities = acRef.value;
     }
     if (lockerRef.checked) {
         roomVal = roomVal + 250;
