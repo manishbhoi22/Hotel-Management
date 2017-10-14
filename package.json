@@ -4,7 +4,7 @@
   "description": "User Registration form",
   "main": "hm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt validate"
   },
   "repository": {
     "type": "git",
